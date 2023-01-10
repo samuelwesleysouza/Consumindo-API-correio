@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 179, 179);
+}
+
+#fundoanimation {
+    width: 77%;
+    height: 1100px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 4px rgba(15, 0, 0, 0.548);
+    overflow: hidden;
+    transition: .14s;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#fotobaner {
+    width: 110px;
+    height: 110px;
+    margin-top: -160px;
+    border-radius: 50px;
+    margin-left: 65px;
+}
+
+.line {
+    /* linha de fonts e parágrafo da animação */
+    color: 255, 255, 255, .75;
+    font-family: fantasy;
+    font-size: 3em;
+    margin-left: 320px;
+    margin-top: 20px;
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    /* Tratamento da animação */
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal;
+}
+
+@keyframes typing {
+
+    /* Tratamento da animação */
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 19em;
+    }
+}
+
+@keyframes blinkCursor {
+
+    /* Tratamento da animação */
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+header {
+    position: absolute;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 920px;
+    background-color: rgb(148, 182, 255);
+    overflow: hidden;
+    transition: .4s;
+    margin-top: 120px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 60, 150);
+    overflow: hidden;
+    transition: .4s;
+    border-radius: 3px;
+    font-family: fantasy;
+    color: rgb(198, 201, 50);
+    box-shadow: 2px 2px 4px rgba(246, 250, 0, 0.548);
+    overflow: hidden;
+}
+
+.container-fluid input {
+    background-color: rgb(238, 235, 235);
+    color: rgb(8, 5, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pesquisarbt {
+    border-color: black;
+}
+
+#incluir {
+    margin-left: 7px;
+    border-color: black;
+}
+
+#cadastrar {
+    margin-left: 33%;
+    margin-top: 10px;
+    width: 50%;
+    overflow: hidden;
+    transition: .4s;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 7, 7);
+    box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.548);
+    overflow: hidden;
+}
+
+#inputrg {
+    width: 234px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -130px;
+    background-color: rgb(182, 189, 201);
+}
+
+#btrg {
+    width: 204px;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 90px;
+    font-size: 11px;
+}
+
+#btbrasil {
+    font-size: 15px;
+    margin-left: 48%;
+    margin-top: 20px;
+}
